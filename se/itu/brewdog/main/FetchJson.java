@@ -20,6 +20,7 @@ public class FetchJson {
   /* The END_POINT and QUERY static final String:s here */
   
   public static void main(String[] args) {
+    System.setProperty("http.agent", "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.4; en-US; rv:1.9.2.2) Gecko/20100316 Firefox/3.6.2");
     /*
     Write out a status message to standard out saying 
     that we'll connect to the Punk API and what URL you will use
